@@ -371,6 +371,8 @@ service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqb
 
 on charger
     start vendor.qcom-post-boot
+    chown system system /sys/class/leds/white/brightness
+    write /sys/class/leds/white/brightness 255
 
 service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     override
