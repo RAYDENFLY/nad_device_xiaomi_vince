@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit Octavi product configuration
-$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
+# Inherit Radiant product configuration
+$(call inherit-product, device/xiaomi/vince/radiant_vince.mk)
 
-# Remove Octavi prefix from product name
+# Remove Radiant prefix from product name
 PRODUCT_NAME := vince
 
-# Identify Octavi Device identifier
-OCTAVI_BUILD := vince
+# Radiant Device identifier
+RADIANT_BUILD := vince
