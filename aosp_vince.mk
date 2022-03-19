@@ -39,6 +39,10 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 # Gapps arch
 TARGET_GAPPS_ARCH := arm64
 
+# Pixel customization
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+
 # Quick Tap feature
 TARGET_SUPPORTS_QUICK_TAP := true
 
