@@ -15,7 +15,7 @@
 #
 
 # Inherit Nusantara product configuration
-$(call inherit-product, device/xiaomi/vince/nad_vince.mk)
+$(call inherit-product, device/xiaomi/vince/dot_vince.mk)
 
 # Remove Nusantara prefix from product name
 PRODUCT_NAME := vince
