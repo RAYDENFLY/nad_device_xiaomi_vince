@@ -14,11 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_vince.mk \
-    $(LOCAL_DIR)/vince.mk
+    $(LOCAL_DIR)/dot_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_vince-user \
-    nad_vince-userdebug \
-    nad_vince-eng \
+    dot_vince-user \
+    dot_vince-userdebug \
+    dot_vince-eng \
     vince-userdebug
