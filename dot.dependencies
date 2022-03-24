@@ -22,9 +22,8 @@
 	"branch":       "12"
     },
     {
-        "repository":   "Panchajanya1999/azure-clang",
+        "repository":   "GhostMaster69-dev/cosmic-clang",
         "remote":       "github",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-15",
-        "branch":       "master"
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-cosmic"
     }
 ]
