@@ -24,6 +24,7 @@
     {
         "repository":   "GhostMaster69-dev/cosmic-clang",
         "remote":       "github",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-cosmic"
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-cosmic",
+        "branch":       "master"
     }
 ]
